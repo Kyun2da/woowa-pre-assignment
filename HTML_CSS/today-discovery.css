@@ -1,0 +1,42 @@
+#today-discovery {
+  display: flex;
+  position: relative;
+  width: 980px;
+  margin: 40px 0 0 20%;
+}
+
+#td-main > h2 {
+  overflow: hidden;
+  height: 33px;
+  margin-bottom: 15px;
+  text-indent: -99em;
+  width: 355px;
+  background-position: 0 -65px;
+  background-image: url(//img1a.coupangcdn.com/image/coupang/main/bg_main_sprite_180103.png);
+  background-repeat: no-repeat;
+}
+
+#discovery-list {
+  position: relative;
+  padding: 3px 0 13px 4px;
+  background: #fff;
+  border: 1px solid #d6d6d6;
+  overflow: hidden;
+}
+
+#discovery-list > li {
+  height: 300px;
+  float: left;
+  position: relative;
+  margin: 10px 2px 0 10px;
+  background: #fff;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  border: 1px solid #d6d6d6;
+}
