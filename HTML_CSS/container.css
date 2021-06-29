@@ -1,0 +1,14 @@
+#container {
+  position: relative;
+  min-width: 980px;
+  overflow: hidden;
+}
+
+.home {
+  border: none;
+}
+
+#container.home {
+  min-width: 1020px;
+  background-color: #fff;
+}

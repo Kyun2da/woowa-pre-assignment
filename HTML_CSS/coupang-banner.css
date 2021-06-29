@@ -1,0 +1,44 @@
+#coupang-banner {
+  position: relative;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 4;
+  overflow: hidden;
+}
+
+#coupang-banner > span {
+  display: block;
+}
+
+#coupang-banner > span.banner-bg {
+  float: left;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #cac6c3;
+}
+
+#coupang-banner > .banner-middle {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#coupang-banner > .banner-middle > a {
+  display: inline-block;
+}
+
+#coupang-banner > a.close {
+  display: block;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  background: url('https://img1a.coupangcdn.com/image/coupang/common/bg_aside_sprite_161005.png')
+    no-repeat;
+  background-position: -110px -31px;
+  z-index: 1;
+  text-indent: -9em;
+  cursor: pointer;
+}
