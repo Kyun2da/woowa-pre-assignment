@@ -1,0 +1,141 @@
+#trends {
+  margin: 20px 20% 0 20%;
+}
+
+#trends-title {
+  background: url('https://static.coupangcdn.com/image/coupang/gateway/ad-carousel/pc/icon-trending-up@3x.png')
+    no-repeat;
+  float: left;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+  background-size: contain;
+  padding-left: 40px;
+}
+
+#trends-body {
+  width: auto;
+  margin: 0 0 35px;
+}
+
+.trends-item {
+  height: 300px;
+  margin: 12px 0;
+  width: 180px;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+.trends-item > a {
+  width: 194px;
+  height: auto;
+  margin: 0 1px;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+.trends-item-image {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+
+.trends-item-image > img {
+  width: 194px;
+  height: 194px;
+}
+
+.discount-rate-stamp-wrap {
+  display: block;
+  left: 0;
+  top: 0;
+  height: 28px;
+  width: 50px;
+  position: absolute;
+}
+
+.discount-rate-stamp-bg {
+  height: 100%;
+  width: 100%;
+  background: #e52c0a;
+  display: table;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 3px;
+}
+
+.item-info-wrap {
+  width: auto;
+  margin: 12px 12px 4px;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.item-title {
+  padding: 0;
+  margin: 0 0 4px;
+  width: auto;
+  display: block;
+  white-space: nowrap;
+  font-weight: normal;
+  color: #111;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2s;
+  height: auto;
+  max-height: 34px;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 17px;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.item-badge-wrap {
+  margin-bottom: 4px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #888;
+}
+
+.item-review {
+  width: 100%;
+  height: 15px;
+  overflow: hidden;
+  clear: both;
+}
+
+.item-review-bg {
+  display: block;
+  float: left;
+  width: 76px;
+  height: 15px;
+  background: url('https://img1a.coupangcdn.com/image/fodium/desktop/widget-sdp-alsoviewedproducts-20160622.png')
+    no-repeat -39px -43px;
+  text-indent: -9999px;
+}
+
+.item-review-score {
+  display: block;
+  width: 76px;
+  height: 15px;
+  background: url(//img1a.coupangcdn.com/image/fodium/desktop/widget-sdp-alsoviewedproducts-20160622.png)
+    no-repeat -39px -58px;
+  text-indent: -9999px;
+}
