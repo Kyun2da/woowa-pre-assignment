@@ -38,6 +38,8 @@
 
 - [링크](https://kyun2da.github.io/woowa-pre-assignment/)
 
+![](./img/html.png)
+
 
 
 ## JavaScript 프로그래밍 학습
@@ -72,9 +74,9 @@
 
 연습 과제
 
-- [틱택토](kyun_tictactoe.surge.sh)
+- [틱택토](https://kyun_tictactoe.surge.sh/)
 
-
+![](./img/tictactoe.png)
 
 ## Node.js 와 백엔드 학습
 
@@ -93,4 +95,6 @@
 
 
 ### 📌 결과물
+
+![](./img/node.png)
 
