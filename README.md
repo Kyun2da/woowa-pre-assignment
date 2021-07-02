@@ -38,7 +38,7 @@
 
 - [링크](https://kyun2da.github.io/woowa-pre-assignment/)
 
-![](./img/html.png)
+![이미지](./img/html.png)
 
 
 
@@ -76,7 +76,7 @@
 
 - [틱택토](https://kyun_tictactoe.surge.sh/)
 
-![](./img/tictactoe.png)
+![이미지](./img/tictactoe.png)
 
 ## Node.js 와 백엔드 학습
 
@@ -96,5 +96,5 @@
 
 ### 📌 결과물
 
-![](./img/node.png)
+![이미지](./img/node.png)
 
