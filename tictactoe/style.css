@@ -59,6 +59,10 @@ button {
   color: white;
 }
 
+button:hover {
+  color: black;
+}
+
 #button-wrapper {
   margin-top: 40px;
 }

@@ -72,7 +72,7 @@
 
 연습 과제
 
-- [링크]()
+- [틱택토](kyun_tictactoe.surge.sh)
 
 
 

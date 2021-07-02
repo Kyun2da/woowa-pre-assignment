@@ -30,6 +30,18 @@ function fillSpace(target) {
   }
 }
 
+function selectTurn() {
+  if (
+    confirm(
+      '턴을 선택해 주세요.\n o플레이어가 먼저 플레이하려면 확인,\n x 플레이어가 먼저 플레이하려면 취소를 눌러주세요.'
+    )
+  ) {
+    turn = 0;
+  } else {
+    turn = 1;
+  }
+}
+
 // 틱택토 판 초기화
 function initializer() {
   const trs = $tbody[0].children;
@@ -40,7 +52,7 @@ function initializer() {
     }
   }
 
-  turn = 0;
+  selectTurn();
 }
 
 // 게임 끝
@@ -133,8 +145,15 @@ $table.addEventListener('click', (e) => {
   checkBingo();
 });
 
-$newGameButton.addEventListener('click', () => initializer());
+$newGameButton.addEventListener('click', () => {
+  if (confirm('게임을 다시 시작하시겠습니까?')) initializer();
+});
 
-// TODO : 리셋 버튼 추가
-// TODO : 턴 선택기능 추가
-// TODO : CSS 가다듬기
+$resetGameButton.addEventListener('click', () => {
+  if (confirm('점수를 초기화하고 게임을 다시 시작하시겠습니까?')) {
+    initializer();
+    xScore = 0;
+    oScore = 0;
+    $score.textContent = `${oScore} : ${xScore}`;
+  }
+});
